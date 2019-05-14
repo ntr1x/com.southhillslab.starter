@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "bin/build",
   "scripts": {
-    "rebuild:web": "/bin/bash ./bin/sidechain-rebuild-web",
-    "rebuild:web:anyway": "/bin/bash ./bin/sidechain-rebuild-web-anyway",
-    "restart:web": "/bin/bash ./bin/sidechain-restart-web"
+    "rebuild:web": "/bin/bash ./bin/rebuild-web",
+    "rebuild:web:anyway": "/bin/bash ./bin/rebuild-web-anyway",
+    "restart:web": "/bin/bash ./bin/restart-web"
   },
   "license": "MIT"
 }
