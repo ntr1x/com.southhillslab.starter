@@ -1,0 +1,4 @@
+docker build \
+  --tag com-southhillslab-web \
+  --file ./com.southhillslab.starter/setup/web/Dockerfile \
+  --no-cache git@github.com:ntr1x/com.southhillslab.git#master

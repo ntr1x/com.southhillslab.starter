@@ -1,0 +1,11 @@
+{
+  "name": "@ntr1x/com.southhillslab.starter",
+  "version": "1.0.0",
+  "main": "bin/build",
+  "scripts": {
+    "rebuild:web": "/bin/bash ./bin/sidechain-rebuild-web",
+    "rebuild:web:anyway": "/bin/bash ./bin/sidechain-rebuild-web-anyway",
+    "restart:web": "/bin/bash ./bin/sidechain-restart-web"
+  },
+  "license": "MIT"
+}

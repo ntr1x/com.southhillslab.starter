@@ -1,0 +1,4 @@
+docker build \
+  --tag com-southhillslab-web \
+  --file ./setup/web/Dockerfile \
+  --no-cache ..
