@@ -5,6 +5,6 @@ set -e
 docker run \
   --name com.southhillslab.web \
   --restart=always --detach \
-  --network southhillslab --ip 192.168.18.2 \
+  --network southhillslab --ip 192.168.51.2 \
   --mount type=bind,src=$(pwd)/setup/web/config,dst=/data/config \
   com-southhillslab-web
