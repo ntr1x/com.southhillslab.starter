@@ -15,7 +15,7 @@ RUN echo "[Build the app]" \
  && echo "${MODULE}/package.json" \
  && cat package.json \
  && NODE_ENV=develop yarn --no-lockfile \
- && yarn ssr:build \
+ && yarn build \
  && echo "[/Build the app]"
 
 RUN mkdir /data
